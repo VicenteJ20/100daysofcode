@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space mono', monospace;
+}
+
+#navbar{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.header{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin: 0 auto;
+    height: 85vh;
+    align-items: center;
+}
+
+.title{
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+.subtitle{
+    width: 80%;
+    margin: 1rem 0;
+}
+
+.backbutton{
+    display: block;
+    background-color: #333333;
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.backbutton:hover{
+    background-color: #4b4b4b;
+    transition: 0.2s 0.1s;
+}
+
+.img_decorative{
+    width: 100%;
+}
+
+#footer{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    html{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #main{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    #footer{
+        width: 93%;
+        margin: 0 auto;
+    }
+}
