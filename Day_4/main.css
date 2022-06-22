@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main{
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.img_home{
+    max-width: 100%;
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.subtitle{
+    width: 46%;
+    margin: 0 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+    color: #4F4F4F;
+    font-style: italic;
+}
+
+#ingredients_section{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 1.4rem 0;
+}
+
+#aside{
+    padding: 1rem;
+    min-width: 50%;
+    height: fit-content;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.content_aside{
+    display: flex;
+    gap: 0 1rem;
+    margin: 0 0 1rem 0;
+    color: #4F4F4F;
+}
+
+.title_aside{
+    color: #BDBDBD;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.icon_aside_div{
+    font-size: 2rem;
+}
+
+.orange_text{
+    color:#F2994A;
+}
+
+.time_aside{
+    font-size: 1.2rem;
+}
+
+.title_section{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.title_form{
+    color: #4F4F4F;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1.4rem 0;
+}
+
+#ingredients_form{
+    padding: 0 1rem;
+}
+
+.checkbox_div{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#instructions_section{
+    width: 80%;
+    padding: 1rem;
+}
+
+.instruction_div{
+    display: grid;
+    grid-template-columns: 5% 90%;
+    gap: 0 1rem;
+    margin: 0 0 2rem 0;
+}
+
+#button_icon{
+    margin: 0 auto;
+    border: none;
+    color: #fafafa;
+    background-color: #F2994A;
+    border-radius: 0.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    height: 3.2rem;
+    width: 3rem;
+}
+
+.instruction_title{
+    margin: 0 0 2rem 0;
+}
+
+.content_instruction{
+    font-size: 1.2rem;
+}
+
+.source_link{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #BDBDBD;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.link_source{
+    color: #BDBDBD;
+}
+
+#footer{
+    text-align: center;
+    margin: 1rem 0;
+    color: #4F4F4F;
+}
+
+@media only screen and (max-width: 900px){
+    .subtitle{
+        width: 90%;
+        padding: 0;
+    }
+
+    #ingredients_section{
+        grid-template-columns: 1fr;
+        grid-template-columns: reverse;
+    }
+
+    #aside{
+        grid-row-start: 1;
+        grid-row-end: 4;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1.5rem 2rem;
+        justify-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    #instructions_section{
+        width: 100%;
+    }
+
+    .instruction_div{
+        gap: 0 3rem ;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .subtitle{
+        margin: 0;
+        padding: 1rem 0.5rem;
+    }
+
+    #aside{
+        grid-template-columns: 1fr;
+        justify-items: start;
+    }
+}
