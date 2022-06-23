@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #4E5150;
+}
+
+#main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.header{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem 0;
+}
+
+.user_img{
+    max-width: 20%;
+    border-radius: 1rem;
+}
+
+.subtitle{
+    color: #A9A9A9;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+#profile_info{
+    width: fit-content;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 2rem;
+    justify-items: center;
+}
+
+.card_info{
+    background-color: #E5E5E5;
+    border-radius: 0.9rem;
+    width: 6.25rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#posts_section{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.image_1{
+    grid-column-start: span 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+}
+
+.image_2{
+    grid-column-start: span 3;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+}
+
+.image_3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.image_4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+}
+
+.image_4 img{
+    width: 95%;
+}
+
+.image_5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+}
+
+.image_6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+}
+
+.post_img{
+    max-width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+#footer{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 0.8rem;
+    }
+
+    #main{
+        width: 95%;
+    }
+
+    #posts_section{
+        width: 100%;
+        margin: 5rem 0;
+    }
+}
