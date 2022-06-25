@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/main.css">
+  <title>Checkout Page Challenge</title>
+</head>
+<body>
+  <main id="main">
+    <header class="header">
+      <h1 class="title">Checkout</h1>
+    </header>
+    <form action="#" id="form" onsubmit="return false">
+      <section class="section_form">
+        <h2 class="title_form">Contact information</h2>
+        <div class="form_content">
+          <label for="email" class="form_label">E-mail</label>
+          <span class="icon_span"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" name="email" id="email" class="form_input" placeholder="Enter your email...">
+        </div>
+        <div class="form_content">
+          <label for="phone" class="form_label">Phone</label>
+          <span class="icon_span"><i class="fa-solid fa-phone"></i></span>
+          <input type="number" name="phone" id="phone" class="form_input" placeholder="Enter your phone...">
+        </div>
+      </section>
+      <section class="section_form">
+        <h2 class="title_form">Shipping address</h2>
+        <div class="form_content">
+          <label for="full_name" class="form_label">Full name</label>
+          <span class="icon_span"><i class="fa-solid fa-user"></i></span>
+          <input type="text" class="form_input" name="full_name" value="Vicente Jorquera">
+        </div>
+        <div class="form_content">
+          <label for="address" class="form_label">Address</label>
+          <span class="icon_span"><i class="fa-solid fa-house"></i></span>
+          <input type="text" name="address" id="address" class="form_input" placeholder="Enter your address...">
+        </div>
+        <div class="form_content">
+          <label for="city" class="form_label">City</label>
+          <span class="icon_span"><i class="fa-solid fa-building"></i></span>
+          <input type="text" name="city" id="city" class="form_input" placeholder="Your city...">
+        </div>
+        <div class="last_section">
+          <div class="form_content">
+            <label for="country" class="form_label">Country</label>
+            <span class="icon_span"><i class="fa-solid fa-earth-americas"></i></span>
+            <input type="text" name="country" id="country" class="form_input" placeholder="Your country">
+          </div>
+          <div class="form_content">
+            <label for="postal_code" class="form_label">Postal code</label>
+            <span class="icon_span"><i class="fa-solid fa-inbox"></i></span>
+            <input type="text" name="postal_code" id="postal_code" class="form_input" placeholder="Your postal code">
+          </div>
+        </div>
+        <div class="form_content save_info_div">
+          <input type="checkbox" name="save_info" id="save_info">
+          <label for="save_info" class="form_save_label">Save this information for next time</label>
+        </div>
+      </section>
+    </form>
+    <aside id="aside">
+      
+    </aside>
+  </main>
+</body>
+</html>
