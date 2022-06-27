@@ -15,57 +15,111 @@
       <h1 class="title">Checkout</h1>
     </header>
     <form action="#" id="form" onsubmit="return false">
-      <section class="section_form">
-        <h2 class="title_form">Contact information</h2>
-        <div class="form_content">
-          <label for="email" class="form_label">E-mail</label>
-          <span class="icon_span"><i class="fa-solid fa-envelope"></i></span>
-          <input type="email" name="email" id="email" class="form_input" placeholder="Enter your email...">
-        </div>
-        <div class="form_content">
-          <label for="phone" class="form_label">Phone</label>
-          <span class="icon_span"><i class="fa-solid fa-phone"></i></span>
-          <input type="number" name="phone" id="phone" class="form_input" placeholder="Enter your phone...">
-        </div>
-      </section>
-      <section class="section_form">
-        <h2 class="title_form">Shipping address</h2>
-        <div class="form_content">
-          <label for="full_name" class="form_label">Full name</label>
-          <span class="icon_span"><i class="fa-solid fa-user"></i></span>
-          <input type="text" class="form_input" name="full_name" value="Vicente Jorquera">
-        </div>
-        <div class="form_content">
-          <label for="address" class="form_label">Address</label>
-          <span class="icon_span"><i class="fa-solid fa-house"></i></span>
-          <input type="text" name="address" id="address" class="form_input" placeholder="Enter your address...">
-        </div>
-        <div class="form_content">
-          <label for="city" class="form_label">City</label>
-          <span class="icon_span"><i class="fa-solid fa-building"></i></span>
-          <input type="text" name="city" id="city" class="form_input" placeholder="Your city...">
-        </div>
-        <div class="last_section">
+      <section id="all_form_content">
+        <section class="section_form">
+          <h2 class="title_form">Contact information</h2>
           <div class="form_content">
-            <label for="country" class="form_label">Country</label>
-            <span class="icon_span"><i class="fa-solid fa-earth-americas"></i></span>
-            <input type="text" name="country" id="country" class="form_input" placeholder="Your country">
+            <label for="email" class="form_label">E-mail</label>
+            <div class="icon_input">
+              <span class="icon_span"><i class="fa-solid fa-envelope"></i></span>
+              <input type="email" name="email" id="email" class="form_input" placeholder="Enter your email...">
+            </div>
           </div>
           <div class="form_content">
-            <label for="postal_code" class="form_label">Postal code</label>
-            <span class="icon_span"><i class="fa-solid fa-inbox"></i></span>
-            <input type="text" name="postal_code" id="postal_code" class="form_input" placeholder="Your postal code">
+            <label for="phone" class="form_label">Phone</label>
+            <div class="icon_input">
+              <span class="icon_span"><i class="fa-solid fa-phone"></i></span>
+              <input type="number" name="phone" id="phone" class="form_input" placeholder="Enter your phone...">
+            </div>
+          </div>
+        </section>
+        <section class="section_form">
+          <h2 class="title_form">Shipping address</h2>
+          <div class="form_content">
+            <label for="full_name" class="form_label">Full name</label>
+            <div class="icon_input">
+              <span class="icon_span"><i class="fa-solid fa-user"></i></span>
+              <input type="text" class="form_input" name="full_name" value="Vicente Jorquera">
+            </div>
+          </div>
+          <div class="form_content">
+            <label for="address" class="form_label">Address</label>
+            <div class="icon_input">
+              <span class="icon_span"><i class="fa-solid fa-house"></i></span>
+              <input type="text" name="address" id="address" class="form_input" placeholder="Enter your address...">
+            </div>
+          </div>
+          <div class="form_content">
+            <label for="city" class="form_label">City</label>
+            <div class="icon_input">
+              <span class="icon_span"><i class="fa-solid fa-building"></i></span>
+              <input type="text" name="city" id="city" class="form_input" placeholder="Your city...">
+            </div>
+          </div>
+          <div class="last_section">
+            <div class="form_content">
+              <label for="country" class="form_label">Country</label>
+              <div class="icon_input">
+                <span class="icon_span"><i class="fa-solid fa-earth-americas"></i></span>
+                <input type="text" name="country" id="country" class="form_input" placeholder="Your country">
+              </div>
+            </div>
+            <div class="form_content">
+              <label for="postal_code" class="form_label">Postal code</label>
+              <div class="icon_input">
+                <span class="icon_span"><i class="fa-solid fa-inbox"></i></span>
+                <input type="text" name="postal_code" id="postal_code" class="form_input" placeholder="Your postal code">
+              </div>
+            </div>
+          </div>
+          <div class="save_info_div">
+            <input type="checkbox" name="save_info" id="save_info">
+            <label for="save_info" class="form_save_label">Save this information for next time</label>
+          </div>
+          <div class="submit_btn">
+            <button class="btn_submit" type="submit">Continue</button>
+          </div>
+        </section>
+      </section>
+      <aside id="aside">
+        <div class="content_aside">
+          <figure id="figure_aside">
+            <img src="/photo1.png" alt="Backbag Vintage" class="aside_img">
+          </figure>
+          <div id="text_aside">
+            <h3 class="product_name">Vintage Backbag</h3>
+            <div class="prices">
+              <p class="colour_price">$54.99</p>
+              <p class="price">$94.99</p>
+            </div>
+            <input type="number" name="quantity_product" id="quantity_price" class="quantity_price" min="1" max="20" value="1">
           </div>
         </div>
-        <div class="form_content save_info_div">
-          <input type="checkbox" name="save_info" id="save_info">
-          <label for="save_info" class="form_save_label">Save this information for next time</label>
+        <div class="content_aside">
+          <figure id="figure_aside">
+            <img src="/photo2.png" alt="Levi Shoes" class="aside_img">
+          </figure>
+          <div id="text_aside">
+            <h3 class="product_name">Levi Shoes</h3>
+            <div class="prices">
+              <p class="colour_price">$74.99</p>
+              <p class="price">$124.99</p>
+            </div>
+            <input type="number" name="quantity_product_2" id="quantity_price2" class="quantity_price" min="1" max="20" value="1">
+          </div>
         </div>
-      </section>
+        <div class="shipping_resume">
+          <div class="shipping_section">
+            <h2>Shipping</h2>
+            <p>$19</p>
+          </div>
+          <div class="shipping_section">
+            <h2>Total</h2>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </aside>
     </form>
-    <aside id="aside">
-      
-    </aside>
   </main>
 </body>
 </html>
