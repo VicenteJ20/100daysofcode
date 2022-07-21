@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.aside_nav{
+    background-color: #FAFBFD;
+    position: fixed;
+    min-height: 100vh;
+    padding: 1rem 2rem;
+}
+
+.header_name{
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+}
+
+.web_link_title{
+    font-size: 1.3rem;
+    color: #090F31;
+    font-weight: 600;
+}
+
+.colorText_link{
+    color: #F7542E;
+}
+
+.ul_section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem 0;
+    list-style: none;
+}
+
+.button_nav_link{
+    color: #9E9E9E;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.button_nav_link:hover{
+    color: #090F31;
+    transition: 0.5s;
+    font-weight: 700;
+}

@@ -1,0 +1,144 @@
+*{
+    color: #4F4F4F;;
+}
+
+.button_section{
+    padding: 2rem 0 0 20%;
+}
+
+.default_icon_div,
+.default_no_icon_div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    gap: 3rem;
+    padding: 0 2rem 0 0;
+}
+
+.slash_span,
+.icon_text_button{
+    font-size: 0.8rem;
+}
+
+.button_design{
+    background-color: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: 600;
+}
+
+.hover_focus{
+    background: #AEAEAE;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+}
+
+.outline_btn{
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+    background-color: transparent;
+}
+
+.hover_focus_outline{
+    background-color: #2962FF1A;
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+}
+
+.text_btn{
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #3D5AFE;
+}
+
+.hover_focus_text{
+    background-color: #2962FF1A;
+    color: #3D5AFE;
+    box-shadow: none;
+}
+
+.disableShadow{
+    color: #fff;
+    background-color: #3D5AFE;
+    box-shadow: none;
+}
+
+.disabled{
+    color: #9E9E9E;
+    background-color: #E0E0E0;
+}
+
+.text_disabled{
+    border: none;
+    background: none;
+    box-shadow: none;
+    color: #9E9E9E;
+}
+
+.local_grocery{
+    background-color: #3D5AFE;
+    color: #fff;
+}
+
+.fa-cart-plus{
+    color: #fff;
+}
+
+.default_icon_size{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.md_button{
+    padding: 0.5rem 1rem;
+}
+
+.lg_button{
+    padding: 0.5rem 2rem;
+}
+
+.default_icon_colors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.primary_button{
+    color: #fff;
+    background-color: #3D5AFE;
+}
+
+.secondary_button{
+    color: #fff;
+    background-color:  #455A64;
+}
+
+.danger_button{
+    color: #fff;
+    background-color: #D32F2F;
+}
+
+.hover_focus_primary{
+    color: #fff;
+    background-color: #0039CB;
+}
+
+.hover_focus_secondary{
+    color: #fff;
+    background-color: #1C313A;
+}
+
+.hover_focus_danger{
+    color: #fff;
+    background-color: #9A0007;
+}
+
+.footer{
+    color: #4F4F4F;
+    font-weight: 700;
+    margin: 3rem 0 1rem 0;
+}
