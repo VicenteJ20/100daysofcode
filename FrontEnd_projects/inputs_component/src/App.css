@@ -1,0 +1,26 @@
+.footer_div{
+  padding: 1.2rem 0 0 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;  
+}
+
+.footer a{
+  color: rgb(0, 185, 154);
+}
+
+.footer a:hover{
+  color: rgb(1, 104, 87);
+  transition: 0.8s;
+}
+
+.container_inputs{
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px){
+  footer{
+    font-size: 0.8rem;
+  }
+}
