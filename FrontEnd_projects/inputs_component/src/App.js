@@ -8,7 +8,7 @@ export default function App(){
       <header className='headerTitle'>
         <h1 className='titleTop'>Inputs</h1>
       </header>
-      <div className='container-fluid container_inputs mt-4 row gap-4'>
+      <div className='container-fluid mt-4 row gap-4'>
         <StandardInput message="<Input />" label="Label" color="#828282" displayText="none"></StandardInput>
         <StandardInput message="&:hover" label="Label" color="#000" displayText="none"></StandardInput>
         <StandardInput message="&:focus" label="Label" color="#2962FF" displayText="none"></StandardInput>
