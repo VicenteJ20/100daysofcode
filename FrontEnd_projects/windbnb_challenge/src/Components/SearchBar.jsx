@@ -1,49 +1,53 @@
 import React, {useState} from "react";
-import './Components_style/SearchBar.css'
+import './Components_style/SearchBar.css';
 
-export default function SearchBar({placeholder, data}){
+export default function SearchBar({placeholder, data, type}){
 
-    const [filteredData, setFilteredData] = useState([]);
-    const [wordEntered, setWordEntered] = useState("");
-
+    const [myData, setMyData] = useState([]);
+    const [findWord, setFindWord] = useState('');
+    
     const handleFilter = (e) => {
-       const searchWord = e.target.value;
-       setWordEntered(searchWord);
-       const newFilter = data.filter((value) => {
-        return value.title.toLowerCase().includes(searchWord.toLowerCase());
-       })
+        const searchWord = e.target.value;
+        setFindWord(searchWord);
+        const newFilter = data.filter((value) => {
+            return value.title.toLoweCase().includes(searchWord.toLoweCase());
+        })
 
-       if (searchWord === ""){
-        setFilteredData([])
-       } else {
-        setFilteredData(newFilter)
-       }
+        if (searchWord === ''){
+            setMyData([]);
+        } else {
+            setMyData(newFilter);
+        }
     }
 
     const clearInput = () => {
-        setFilteredData([]);
-        setWordEntered('');
+        setMyData([]);
+        setFindWord('');
     }
 
     return (
-        <div className="search">
-            <div className="searchInputs">
-                <input type="text" placeholder={placeholder} value={wordEntered} onChange={handleFilter}/>
-                <div className="searchIcon">
-                    {filteredData.length === 0 ? <i className="fa-solid fa-magnifying-glass"></i> : <i id="clearBtn" className="fa-solid fa-xmark" onClick={clearInput}></i>}
+        <form className="search_form">
+            <div className="search_input">
+                <input type={type} placeholder={placeholder} value={findWord} onChange={handleFilter}></input>
+                <div className="search_icon">
+                    {
+                        myData.length === 0 ? <button className="icon_button"><i className="fa-solid fa-magnifying-glass"></i></button> : <button className="icon_button"><i id="clearBtn" className="fa-solid fa-xmark" onClick={clearInput}></i></button>
+                    }
                 </div>
+                {
+                    myData.length !== 0 && (
+                        <div className="data_result">
+                            {myData.slice(0, 10).map((value, key) => {
+                                return (
+                                    <a className="item_data" href={value.link} target="_blank" rel="noreferrer">
+                                        <p>{value.title}</p>
+                                    </a>
+                                );
+                            })}
+                        </div>
+                    )
+                }
             </div>
-            {filteredData.length !== 0 && (
-                <div className="dataResult">
-                {filteredData.slice(0, 15).map((value, key) => {
-                    return (
-                        <a className="dataItem" href={value.link} target="_blank" rel="noreferrer">
-                            <p>{value.title}</p>
-                        </a>
-                    );
-                })}
-            </div>
-            )}
-        </div>
+        </form>
     );
-}
+} 

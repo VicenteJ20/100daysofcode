@@ -1,11 +1,11 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import BookData from './Data.json'
+import placesData from './cardData.json';
 
 export default function App(){
   return (
     <div className='App'>
-      <Navbar placeHolder="Enter a place..." myData={BookData}/>
+      <Navbar placeHolder='Location' myData={placesData}/>
     </div>
   );
 }

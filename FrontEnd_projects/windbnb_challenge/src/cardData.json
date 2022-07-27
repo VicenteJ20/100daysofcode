@@ -1,0 +1,58 @@
+[
+    {
+        "imageURL": "",
+        "superHost": true,
+        "hostType": "Entire apartment. 2 beds",
+        "startsEarned": 4.0,
+        "title": "Stylish apartment in center of the city"
+    },
+    {
+        "imageURL": "",
+        "superHost": false,
+        "hostType": "Private room",
+        "startsEarned": 4.25,
+        "title": "Cozy, peaceful and private room with private bathroom."
+    },
+    {
+        "imageURL": "",
+        "superHost": false,
+        "hostType": "Entire house",
+        "startsEarned": 4.96,
+        "title": "Modern House in a remote area"
+    },
+    {
+        "imageURL": "",
+        "superHost": true,
+        "hostType": "Entire apartment. 2 beds",
+        "startsEarned": 4.85,
+        "title": "Stylish room in design district"
+    },
+    {
+        "imageURL": "",
+        "superHost": false,
+        "hostType": "Private room",
+        "startsEarned": 4.54,
+        "title": "Modern apartment close to nature"
+    },
+    {
+        "imageURL": "",
+        "superHost": false,
+        "hostType": "Entire house",
+        "startsEarned": 4.64,
+        "title": "House in a remote area"
+    },
+    {
+        "imageURL": "",
+        "superHost": false,
+        "hostType": "Entire apartment. 4 beds",
+        "startsEarned": 5.0,
+        "title": "Stylish apartment close to nature"
+    },
+    {
+        "imageURL": "",
+        "superHost": true,
+        "hostType": "Entire floor. 20 beds",
+        "startsEarned": 4.8,
+        "title": "Modern House in the center of the city"
+    }
+]
