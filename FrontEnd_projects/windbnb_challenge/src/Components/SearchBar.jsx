@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import './Components_style/SearchBar.css';
+import GetImportantInfo from "./GetImportantData";
 
 export default function SearchBar({placeholder, data, type}){
 
@@ -10,7 +11,7 @@ export default function SearchBar({placeholder, data, type}){
         const searchWord = e.target.value;
         setFindWord(searchWord);
         const newFilter = data.filter((value) => {
-            return value.title.toLoweCase().includes(searchWord.toLoweCase());
+            return value.location.toLowerCase().includes(searchWord.toLowerCase());
         })
 
         if (searchWord === ''){
@@ -26,28 +27,29 @@ export default function SearchBar({placeholder, data, type}){
     }
 
     return (
-        <form className="search_form">
-            <div className="search_input">
-                <input type={type} placeholder={placeholder} value={findWord} onChange={handleFilter}></input>
-                <div className="search_icon">
-                    {
-                        myData.length === 0 ? <button className="icon_button"><i className="fa-solid fa-magnifying-glass"></i></button> : <button className="icon_button"><i id="clearBtn" className="fa-solid fa-xmark" onClick={clearInput}></i></button>
-                    }
-                </div>
+        <div className="search_form row">
+            <div className="search_input col-md-10 col-sm-12">
+                <input className="w-100 inputWord" type={type} placeholder={placeholder} value={findWord} onChange={handleFilter}></input>
+            </div>
+            <div className="search_icon col-md-2 col-sm-12 m-0 p-0">
                 {
-                    myData.length !== 0 && (
-                        <div className="data_result">
-                            {myData.slice(0, 10).map((value, key) => {
-                                return (
-                                    <a className="item_data" href={value.link} target="_blank" rel="noreferrer">
-                                        <p>{value.title}</p>
-                                    </a>
-                                );
-                            })}
-                        </div>
-                    )
+                    myData.length === 0 ? <button className="icon_button w-100 h-100"><i className="fa-solid fa-magnifying-glass"></i></button> : <button className="icon_button w-100 h-100" onClick={clearInput}><i id="clearBtn" className="fa-solid fa-xmark"></i></button>
                 }
             </div>
-        </form>
+            {
+                myData.length !== 0 && (
+                    <div className="data_result">
+                        {myData.slice(0, 1).map((value) => {
+                            return (
+                                <a className="item_data" href={value.imageURL} target="_blank" rel="noreferrer">
+                                    <p><i className="fa-solid fa-location-dot"></i> {value.location}</p>
+                                </a>,
+                                <GetImportantInfo place={value.location} />
+                            );
+                        })}
+                    </div>
+                    )
+                }
+        </div>
     );
 } 
