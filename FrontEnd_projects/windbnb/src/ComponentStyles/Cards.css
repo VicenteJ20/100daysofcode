@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.places_header{
+    font-weight: 700;
+}
+
+.amount_header{
+    font-weight: 700;
+}
+
+.amount_header_div{
+    text-align: end;
+}

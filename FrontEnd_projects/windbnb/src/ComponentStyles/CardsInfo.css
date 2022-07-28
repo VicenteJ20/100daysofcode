@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image_card{
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.content_info{
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+}
+
+.superHost{
+    border: 1px solid #4F4F4F;
+    padding: 0.5rem;
+    border-radius: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.starsData{
+    margin-left: 2rem;
+}
+
+.title_card{
+    font-weight: 700;
+    font-size: 1.4rem;
+}

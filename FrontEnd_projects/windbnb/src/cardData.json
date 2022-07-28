@@ -1,0 +1,74 @@
+[
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": true,
+        "hostType": "Entire apartment. 2 beds",
+        "starsEarned": 4.0,
+        "title": "Stylish apartment in center of the city",
+        "location": "Helsinki, Finland",
+        "guests": 6
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": false,
+        "hostType": "Private room",
+        "starsEarned": 4.25,
+        "title": "Cozy, peaceful and private room with private bathroom.",
+        "location": "Turku, Finland",
+        "guests": 2
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": false,
+        "hostType": "Entire house",
+        "starsEarned": 4.96,
+        "title": "Modern House in a remote area",
+        "location": "Oulu, Finland",
+        "guests": 6
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": true,
+        "hostType": "Entire apartment. 2 beds",
+        "starsEarned": 4.85,
+        "title": "Stylish room in design district",
+        "location": "Vaasa, Finland",
+        "guests": 4
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": false,
+        "hostType": "Private room",
+        "starsEarned": 4.54,
+        "title": "Modern apartment close to nature",
+        "location": "Helsinki, Finland",
+        "guests": 2
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": false,
+        "hostType": "Entire house",
+        "starsEarned": 4.64,
+        "title": "House in a remote area",
+        "location": "Turku, Finland",
+        "guests": 6
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": false,
+        "hostType": "Entire apartment. 4 beds",
+        "starsEarned": 5.0,
+        "title": "Stylish apartment close to nature",
+        "location": "Oulu,  Finland",
+        "guests": 6
+    },
+    {
+        "imageURL": "https://qph.fs.quoracdn.net/main-qimg-a1ddd895b0fb05f50335775d05293b09",
+        "superHost": true,
+        "hostType": "Entire floor. 20 beds",
+        "starsEarned": 4.8,
+        "title": "Modern House in the center of the city",
+        "location": "Helsinki,  Finland",
+        "guests": 8
+    }
+]
