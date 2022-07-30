@@ -19,8 +19,8 @@ This is a solution to the [QR code component on Frontend Mentor](https://www.fro
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live site URL: [GO LIVE]()
+- Solution URL: [Solution](https://github.com/VicenteJ20/100daysofcode/tree/main/FontEnd_Mentor/QR_code_component)
+- Live site URL: [GO LIVE](https://jvicente20-qr-code-components.netlify.app)
 
 ## My process
 
