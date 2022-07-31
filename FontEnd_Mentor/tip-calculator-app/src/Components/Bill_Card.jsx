@@ -50,7 +50,7 @@ export default function BillCard(){
                         <button className='btn btn_tip col-md-3 col-sm-4 col-5' value={customValue  ? NaN : 15} onClick={handleCustomFilter}>15%</button>
                         <button className='btn btn_tip col-md-3 col-sm-4 col-5' value={customValue  ? NaN : 25} onClick={handleCustomFilter}>25%</button>
                         <button className='btn btn_tip col-md-3 col-sm-4 col-5' value={customValue  ? NaN : 50}  onClick={handleCustomFilter}>50%</button>
-                        <input className='btn btn_tip_input col-md-3 col-sm-2' type='number' value={customValue} onChange={handleCustomFilter} placeholder="Custom"></input>
+                        <input className='btn btn_tip_input col-md-3 col-sm-4 col-5' type='number' value={customValue} onChange={handleCustomFilter} placeholder="Custom"></input>
                     </div>
                 </div>
                 <div className='people_number_div'>

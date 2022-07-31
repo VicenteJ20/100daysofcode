@@ -14,12 +14,12 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./src/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live site URL: [GO LIVE]()
+- Solution URL: [Solution](https://github.com/VicenteJ20/100daysofcode/tree/main/FontEnd_Mentor/tip-calculator-app)
+- Live site URL: [GO LIVE](https://jvicente20-tip-calculator-app.netlify.app/)
 
 ## Built with
 - React
