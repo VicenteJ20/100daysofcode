@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#card_div{
+    background-color: var(--White);
+    padding: 2rem;
+    margin: 0 auto;
+    min-height: 35rem;
+    border-radius: 1rem;
+    gap: 2rem 1rem;
+}
+
+#result_div{
+    background-color: var(--Very-dark-cyan);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: var(--White);
+}
+
+#bill_div{
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+.bill_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--Dark-grayish-cyan);
+    margin-bottom: 2rem;
+}
+
+.div_input_bill input{
+    border: none;
+    background-color: var(--Very-light-grayish-cyan);
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 0.6rem;
+    text-align: end;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--Very-dark-cyan);
+}
+
+.div_input_bill input::-webkit-outer-spin-button,
+.div_input_bill input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.div_input_bill input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.div_button_tip{
+    gap: 1rem;
+}
+
+.div_button_tip button{
+    font-size: 1.3rem;
+    color: var(--White);
+    background-color: var(--Very-dark-cyan); 
+}
+
+.content_div_data h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.content_div_data p{
+    font-size: 0.8rem;
+    color: var(--Grayish-cyan);
+}
+
+.content_div_amount{
+    text-align: end;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--Light-grayish-cyan);
+}
+
+.reset_button_div{
+    position: relative;
+    text-align: center;
+}
+
+.btn-reset{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--Light-grayish-cyan);
+    border: none;
+    padding: 0.9rem 0;
+    font-size: 1.4rem;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0.6rem;
+    color: var(--Very-dark-cyan)
+}
+
+.btn-reset:hover{
+    color: var(--White);
+    background-color: var(--Dark-grayish-cyan);
+    transition: 0.6s;
+}
+
+#icon_div{
+    position: relative;
+}
+
+.icon_input{
+    position: absolute;
+    font-size: 1.3rem;
+    top: 1.5rem;
+    color: var(--Grayish-cyan);
+    left: 1rem;
+}
