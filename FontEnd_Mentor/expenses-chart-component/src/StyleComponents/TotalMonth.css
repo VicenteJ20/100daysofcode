@@ -4,6 +4,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     padding-top: 1.5rem;
+    text-align: end;
 }
 
 .percentegeAmount{
@@ -15,7 +16,6 @@
 .titleAmount{
     color: var(--Medium-brown);
 }
-
 .totalAmountCard{
     font-size: 2.5rem;
     font-weight: 600;
