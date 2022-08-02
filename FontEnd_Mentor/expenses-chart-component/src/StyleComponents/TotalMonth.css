@@ -1,0 +1,23 @@
+.percentageDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 1.5rem;
+}
+
+.percentegeAmount{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--Dark-brown);
+}
+
+.titleAmount{
+    color: var(--Medium-brown);
+}
+
+.totalAmountCard{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--Dark-brown);
+}

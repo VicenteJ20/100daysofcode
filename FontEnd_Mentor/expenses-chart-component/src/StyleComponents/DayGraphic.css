@@ -1,0 +1,59 @@
+.backgroundBar{
+    width: 3rem;
+    height: 20rem;
+    transform: rotate(180deg);
+}
+
+.fillBar{
+    border-radius: 0.4rem;
+}
+
+.fillBar:hover{
+    opacity: 0.89;
+    transition: 0.4s;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.5s ease 0.5s;
+    visibility: visible;
+    transform: rotate(180deg);
+}
+[data-title]:after {
+    opacity: 1;
+    content: attr(data-title);
+    background-color: var(--Dark-brown);
+    color: var(--Very-pale-orange);
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    right: -1.1rem;
+    padding: 0.6rem;
+    bottom: -4.2rem;
+    white-space: nowrap;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 0.5rem;
+    
+}
+[data-title] {
+    position: relative;
+}
+
+.titleDayDiv{
+    text-align: center;
+    width: 3rem;
+    padding-top: 1rem;
+}
+
+.titleDay{
+    font-size: 1rem;
+    color: var(--Medium-brown);
+}
+
+@media only screen and (max-width: 600px){
+    .backgroundBar{
+        width: 2rem;
+    }
+}
