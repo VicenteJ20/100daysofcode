@@ -1,5 +1,5 @@
 .rootDisplay{
-    height: 4rem;
+    height: 6rem;
     background-color: #000;
     margin: 2rem 0;
     border-radius: 1rem;
@@ -29,4 +29,10 @@
 
 .buttonCalc:hover{
     opacity: .5;
+}
+
+@media only screen and (max-width: 500px){
+    html{
+        font-size: 0.8rem;
+    }
 }
