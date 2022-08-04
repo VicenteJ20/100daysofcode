@@ -1,0 +1,32 @@
+.rootDisplay{
+    height: 4rem;
+    background-color: #000;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.buttonDivCalc{
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 2rem 0;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.buttonCalc{
+    width: 100%;
+    font-size: 1.4rem;
+    height: 3.2rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-weight: 700;
+}
+
+.buttonCalc:hover{
+    opacity: .5;
+}

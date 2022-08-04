@@ -1,0 +1,94 @@
+:root{
+
+    /* THEME 1 */
+
+    /* Backgrounds color*/
+    --Very-dark-desaturated-blue-main: hsl(222, 26%, 31%);
+    --Very-dark-desaturated-blue-toggle: hsl(223, 31%, 20%);
+    --Very-dark-desaturated-blue-screen: hsl(224, 36%, 15%);
+
+    /* Text Color */
+    --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --White: hsl(0, 0, 100%);
+
+    /* Keys color */
+    --Desaturated-dark-blue-standar: hsl(225, 21%, 49%);
+    --Desaturated-dark-blue: hsl(224, 28%, 35%);
+
+    --Red: hsl(6, 63%, 50%);
+    --Dark-red: hsl(6, 70%, 34%);
+
+    --Light-grayish-orange: hsl(30, 25%, 89%);
+    --Grayish-orange: hsl(28, 16%, 65%);
+
+    /* THEME 2 */
+
+    /* Backgrounds color */
+    --Light-gray-main: hsl(0, 0%, 90%);
+    --Grayish-red-toggle: hsl(0, 5%, 81%);
+    --Very-light-gray-screen: hsl(0, 0%, 93%);
+
+    /* Text color */
+    --Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+    --White-text: hsl(0, 0, 100%);
+
+    /* Keys color */
+    --Dark-moderate-cyan: hsl(185, 42%, 37%);
+    --Very-dark-cyan: hsl(185, 58%, 25%);
+
+    --Orange-background: hsl(25, 98%, 40%);
+    --Dark-orange: hsl(25, 99%, 27%);
+
+    --Light-grayish-yellow: hsl(45, 7%, 89%);
+    --Dark-grayish-orange: hsl(35, 11%, 61%);
+
+    /* THEME 3 */
+
+    /* Backgrounds color */
+    --Very-dark-violet-main: hsl(268, 75%, 9%);
+    --Very-dark-violet-keypad: hsl(268, 71%, 12%);
+
+    /* Text color */
+    --Light-yellow: hsl(52, 100%, 62%);
+    --Very-dark-blue: hsl(198, 20%, 13%);
+    --White-text: hsl(0, 0, 100%);
+
+    /* Keys color */
+    --Dark-violet-background: hsl(281, 89%, 26%);
+    --Vivid-magenta-shadow: hsl(285, 91%, 52%);
+
+    --Pure-cyan-toggle: hsl(176, 100%, 44%);
+    --Soft-cyan-key: hsl(177, 92%, 70%);
+
+    --Very-dark-violet: hsl(268, 47%, 21%);
+    --Dark-magenta-shadow: hsl(290, 70%, 36%);
+}
+
+.App{
+    min-height: 100vh;
+}
+
+.AppRootContent{
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 5rem;
+    color: #fff;
+}
+
+.backgroundButton{
+    width: 100%;
+    padding: 0.2rem;
+}
+
+#bck1{
+    border-radius: 1rem 0 0 1rem;
+}
+
+#bck3{
+    border-radius: 0 1rem 1rem 0;
+}
+
+
+.themeButtonsDiv{
+    text-align: center;
+}
