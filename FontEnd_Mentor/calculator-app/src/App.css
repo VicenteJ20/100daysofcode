@@ -79,7 +79,10 @@
 
 .backgroundButton{
     width: 100%;
-    padding-bottom: 1rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 #bck1{
@@ -99,12 +102,12 @@
     width: 1rem;
     height: 1rem;
     background-color: #fff;
-    margin-bottom: 0.5rem;
 }
 
 .titleTheme{
     font-weight: 600;
     font-size: 1rem;
+    padding: 0.3rem 0;
 }
 
 .footer{

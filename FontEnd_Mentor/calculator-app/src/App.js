@@ -134,26 +134,26 @@ export default function App(){
           </div>
           <div className='themeButtonsDiv col-md-4 col-6 gap-3 row container-fluid'>
             <div className='p-0 col-4 align-items-end d-flex'>
-              <h3 className='titleTheme' style={selectTheme === 1 ? titleStyleTheme1 : selectTheme === 2 ? titleStyleTheme2 : titleStyleTheme3}>THEME</h3>
+              <h3 className='titleTheme m-0' style={selectTheme === 1 ? titleStyleTheme1 : selectTheme === 2 ? titleStyleTheme2 : titleStyleTheme3}>THEME</h3>
             </div>
             <div className='col-md-8 col-8 row container-fluid'>
               <div className='buttonDiv col-4 p-0'>
                 <p style={selectTheme === 1 ? titleStyleTheme1 : selectTheme === 2 ? titleStyleTheme2 : titleStyleTheme3}>1</p>
-                <div style={selectTheme === 1 ? backgroundTopTheme : selectTheme === 2 ? backgroundTopTheme2 : backgroundTopTheme3} className='backgroundButton' id='bck1'>
+                <div style={selectTheme === 1 ? backgroundTopTheme : selectTheme === 2 ? backgroundTopTheme2 : backgroundTopTheme3} className='backgroundButton p-2' id='bck1'>
                   <button className='buttonTheme' id='buttonTheme' value={selectTheme ? 1 : 1} style={selectTheme === 1 ? buttonStyleSelected : buttonStyleStandar} onClick={handleThemeFilter}></button>
                 </div>
               </div>
               <div className='buttonDiv col-4 p-0'>
 
                 <p style={selectTheme === 1 ? titleStyleTheme1 : selectTheme === 2 ? titleStyleTheme2 : titleStyleTheme3}>2</p>
-                <div style={selectTheme === 1 ? backgroundTopTheme : selectTheme === 2 ? backgroundTopTheme2 : backgroundTopTheme3} className='backgroundButton'>
+                <div style={selectTheme === 1 ? backgroundTopTheme : selectTheme === 2 ? backgroundTopTheme2 : backgroundTopTheme3} className='backgroundButton p-2'>
                   <button className='buttonTheme' value={selectTheme ? 2 : 2} style={selectTheme === 2 ? buttonStyleSelected2 : buttonStyleStandar} onClick={handleThemeFilter}></button>
                 </div>
                 
               </div>
               <div className='buttonDiv col-4 p-0'>
                 <p style={selectTheme === 1 ? titleStyleTheme1 : selectTheme === 2 ? titleStyleTheme2 : titleStyleTheme3}>3</p>
-                <div style={selectTheme === 1 ? backgroundTopTheme : selectTheme === 2 ? backgroundTopTheme2 : backgroundTopTheme3} className='backgroundButton ' id='bck3'>
+                <div style={selectTheme === 1 ? backgroundTopTheme : selectTheme === 2 ? backgroundTopTheme2 : backgroundTopTheme3} className='backgroundButton p-2' id='bck3'>
                   <button className='buttonTheme' value={selectTheme ? 3 : 3} style={selectTheme === 3 ? buttonStyleSelected3 : buttonStyleStandar} onClick={handleThemeFilter}></button>
                 </div>
               </div>
