@@ -109,3 +109,9 @@
     text-align: center;
     padding: 1rem 0;
 }
+
+@media only screen and (max-width: 500px){
+    .AppRootContent{
+        padding: 1rem 0;
+    }
+}
