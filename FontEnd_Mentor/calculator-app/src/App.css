@@ -73,6 +73,8 @@
     margin: 0 auto;
     padding: 5rem;
     color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .backgroundButton{
@@ -112,6 +114,6 @@
 
 @media only screen and (max-width: 500px){
     .AppRootContent{
-        padding: 1rem 0;
+        padding: 1.5rem 0;
     }
 }

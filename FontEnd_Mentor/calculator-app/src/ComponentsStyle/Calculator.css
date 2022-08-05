@@ -1,3 +1,9 @@
+.CalculatorRoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .rootDisplay{
     height: 6rem;
     background-color: #000;
@@ -30,6 +36,7 @@
 .buttonCalc:hover{
     opacity: .5;
 }
+
 
 @media only screen and (max-width: 500px){
     html{

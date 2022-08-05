@@ -126,8 +126,8 @@ export default function App(){
   }
   
   return (
-    <div className='App row container-fluid justify-content-center align-items-center' style={selectTheme === 1 ? theme1 : selectTheme === 2 ? theme2 : theme3}>
-      <div className='AppRootContent col-lg-4 col-md-8 col-12'>
+    <div className='App m-0 row container-fluid justify-content-center align-items-center' style={selectTheme === 1 ? theme1 : selectTheme === 2 ? theme2 : theme3}>
+      <div className='AppRootContent container-fluid m-0 p-4 col-lg-4 col-md-8 col-12'>
         <div className='headerContent justify-content-center row container-fluid align-items-center'>
           <div className='col-md-8 col-5 mt-5'>
             <h1 style={selectTheme === 1 ? titleStyleTheme1 : selectTheme === 2 ? titleStyleTheme2 : titleStyleTheme3} className='title'>Calc</h1>

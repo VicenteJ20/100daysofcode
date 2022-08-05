@@ -124,7 +124,7 @@ export default function Calculator({theme}){
 
 
     return (
-        <div  className="CalculatorRoot container-fluid mt-5">
+        <div className="CalculatorRoot container-fluid mt-4">
             <div style={theme === 1 ? displayTheme1 : theme === 2 ? displayTheme2 : displayTheme3} className='rootDisplay row container-fluid p-4'>
                 {number}
             </div>
