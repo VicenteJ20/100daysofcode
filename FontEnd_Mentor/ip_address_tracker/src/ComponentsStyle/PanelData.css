@@ -1,0 +1,30 @@
+.PanelDataRoot{
+    position: absolute;
+    top: -4rem;
+    background-color: #fafafa;
+    min-height: 13rem;
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 32px 3px rgb(85, 85, 85);
+}
+
+.titleInfoDiv{
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(104, 104, 104);
+}
+
+.infoDiv{
+    border-left: 2px solid rgb(194, 194, 194);
+}
+
+.divParent{
+    position: relative;
+}
+
+.resultInfoDiv{
+    position: absolute;
+    top: 3rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
