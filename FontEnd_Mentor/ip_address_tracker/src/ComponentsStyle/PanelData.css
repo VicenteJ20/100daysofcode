@@ -18,13 +18,30 @@
     border-left: 2px solid rgb(194, 194, 194);
 }
 
-.divParent{
-    position: relative;
-}
-
 .resultInfoDiv{
-    position: absolute;
-    top: 3rem;
+    top: 1.5rem;
     font-size: 1.6rem;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 900px){
+    .PanelDataRoot{
+        min-height: fit-content;
+        gap: 1rem 0;
+    }
+
+    .infoDiv{
+        border: none;
+    }
+    .resultInfoDiv{
+        height: fit-content;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .PanelDataRoot{
+        top: -8rem;
+        padding: 1rem 0;
+    }
 }

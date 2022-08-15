@@ -8,7 +8,7 @@
 }
 
 .headerApp{
-    min-height: 35vh;
+    height: 35vh;
     background-image: url('/src/images/pattern-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,4 +52,37 @@
     position: relative;
     width: 70%;
     margin: 0 auto;
+    z-index: 99999999999;
+}
+
+.alternative_Message{
+    height: 65vh;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 900px){
+    .inputDIV{
+        width: 90%;
+    }
+    .divComponentBar{
+        width: 90%;
+        left: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 0.8rem;
+    }
+
+    .headerApp{
+        height: 35vh;
+        padding-top: 0rem;
+    }
 }

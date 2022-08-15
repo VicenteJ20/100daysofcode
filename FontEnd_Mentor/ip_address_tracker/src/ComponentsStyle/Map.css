@@ -1,0 +1,16 @@
+.mapContainer{
+    width: 100%;
+    height: 65vh;
+}
+
+.popUpMap{
+    margin-bottom: 3.7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px){
+    .mapContainer{
+        height: 65vh;
+    }
+}
