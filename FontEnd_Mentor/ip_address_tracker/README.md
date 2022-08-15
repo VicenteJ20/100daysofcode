@@ -15,8 +15,8 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 I made this IP TRACKER with ReactJS, Bootstrap and some custom CSS, and Ipify, . 
 
 ## Screenshot
-![](./src/screenshot1.jpg)
-![](./src/screenshot2.jpg)
+![](./src/screenshot1.jpg);
+![](./src/screenshot2.jpg);
 
 ### Links
 
