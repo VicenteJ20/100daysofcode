@@ -33,7 +33,7 @@ export default function App(){
         </div>
       </header>
       <div className='divComponentBar' id='componentBar'>
-      <PanelData ip={myData.length !== 0 ? myData.ip : ''}  location={myData.length !== 0 ? myData.location.region + ', ' + myData.location.city + ', ' + myData.location.country : ''} timezone={myData.length !== 0 ? myData.location.timezone : ''} isp={myData.length !== 0 ? myData.isp : ''}/> 
+        <PanelData ip={myData.length !== 0 ? myData.ip : ''}  location={myData.length !== 0 ? myData.location.region + ', ' + myData.location.city + ', ' + myData.location.country : ''} timezone={myData.length !== 0 ? myData.location.timezone : ''} isp={myData.length !== 0 ? myData.isp : ''}/> 
       </div>
       {
         myData.length !== 0 ?
@@ -42,6 +42,10 @@ export default function App(){
             {myData.length === 0 ? handleDataFilter() : ''}
           </div>
       }
+      <div className='footerDiv'>
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer'>Frontend Mentor</a>. 
+        Coded by <a href="https://vicentejorquera.netlify.app">Vicente Jorquera</a>.</p>
+      </div>
     </div>
   );
 }
