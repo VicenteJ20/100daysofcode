@@ -63,14 +63,9 @@
 .footerDiv{
     font-size: 1.25rem;
     text-align: center;
+    padding: 0.25rem;
     background-color: rgb(32, 76, 102);
     color: #fafafa;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 2rem;
 }
 
 .footerDiv a{
