@@ -1,0 +1,56 @@
+.CardsRoot{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.frontCard{
+    background-image: url('/src/images/bg-card-front.png');
+    background-size: cover;
+    background-repeat: none;
+    width: 30rem;
+    height: 16.5rem;
+    border-radius: 1rem;
+    padding: 1rem 1.4rem;
+    margin-left: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cardNumber{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contentFrontCard{
+    position: relative;
+    top: 40%;
+}
+
+.nameAnddate{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.cardName,
+.dateName{
+    font-weight: 500;
+}
+
+.backCard{
+    background-image: url('/src/images/bg-card-back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 16.5rem;
+    border-radius: 1rem;
+    padding: 7.15rem 3.5rem;
+    text-align: end;
+    margin-left: 9rem;
+}
+
+.cvc{
+    color: #fff;
+}

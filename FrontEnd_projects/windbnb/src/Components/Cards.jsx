@@ -5,7 +5,7 @@ import CardsInfo from "./CardsInfo";
 export default function Cards({x, showData, data}){
 
     return (
-        <div className="cards_top row mt-5">
+        <div className="cards_top row">
             <div className="col-md-9 places_header_div">
                 <h2 className="places_header">Stays in Finland</h2>
             </div>

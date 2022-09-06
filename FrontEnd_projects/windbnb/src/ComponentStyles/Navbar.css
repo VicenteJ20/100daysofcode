@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.nav_bar{
+    width: 100%;
+    background-color: #FFFF;
+}
 
 
 .title_nav{
@@ -22,14 +26,24 @@
     border: 1px solid #F2F2F2;
     border-radius: 0.6rem;
     width: 100%;
-    position: absolute;
     right: 4rem;
     top: 1.5rem;
     background-color: #FFFF;
 }
 
+.content_data_result{
+    position: relative;
+}
+
 .data_result{
-    padding: 0.5rem 2rem;
+    padding: 0.6rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #F2F2F2;
+    border-radius: 0 0 0.6rem 0.6rem;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
 .place_word,

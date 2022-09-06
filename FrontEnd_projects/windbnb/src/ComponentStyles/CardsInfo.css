@@ -5,9 +5,13 @@
 }
 
 
+.figure_img{
+    margin-bottom: 1.2rem;
+}
+
+
 .image_card{
     border-radius: 1.2rem;
-    margin-bottom: 1rem;
 }
 
 .content_info{
@@ -27,6 +31,12 @@
 
 .starsData{
     margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.starsData i{
+    color: #EB5757;
 }
 
 .title_card{

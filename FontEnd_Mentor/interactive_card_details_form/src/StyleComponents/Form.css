@@ -1,0 +1,89 @@
+.FormRoot{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    bottom: 10%;
+    align-items: center;
+}
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 45%;
+    right: 2rem;
+    bottom: 8rem;
+    top: 8rem;
+    position: absolute;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.formLabel{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: hsl(221, 80%, 21%);
+}
+
+.formInput{
+    all: unset;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 0.6rem;
+}
+
+.formInput[type=number]::-webkit-inner-spin-button, 
+.formInput[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.formInput[type=number] { -moz-appearance:textfield; }
+
+
+.monthYearDiv{
+    display: flex;
+    gap: 1rem;
+}
+
+.monthYearInput{
+    width: 100%;
+}
+
+.formDivDateCvc{
+    display: flex;
+    gap: 1rem;
+}
+
+.submitBtn{
+    border: none;
+    cursor: pointer;
+    background-color: hsl(278, 68%, 11%);
+    font-size: 1.2rem;
+    color: hsl(270, 3%, 87%);
+    font-weight: 600;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+}
+
+.submitBtn:hover{
+    background-color: hsl(278, 94%, 30%);
+    transition: ease-in-out 0.5s all;
+}
+
+.spanAlert{
+    color: hsl(0, 100%, 66%);
+    position: absolute;
+    bottom: -1.5rem;
+}
