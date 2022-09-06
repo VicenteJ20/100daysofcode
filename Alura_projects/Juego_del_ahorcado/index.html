@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del ahorcado - Vicente Jorquera</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header id="header_home">
+        <div class="visual-div-header">
+            <button id="go_back" class="go_back_btn"><i class="fa-regular fa-circle-left"></i></button>
+            <img class="img-header" src="./Recursos/alura_logo.svg">
+        </div>
+        <div class="created-by-div">
+            <p>Creado por <a class="name_link" href="https://www.instagram.com/jvicente_20">Vicente Jorquera</a></p>
+        </div>
+    </header>
+    <main id="main">
+        <section class="Home_section" id="home_section">
+            <h2 class="title_home">Bienvenido al juego</h2>
+            <h3 class="subtitle">Selecciona una opción para continuar</h3>
+            <div class="buttons_div_home">
+                <button id="writeWord" class="button_home">Escribir palabra</button>
+                <button id="useGenericWord" class="button_home">Usar palabra aleatoria</button>
+                <button id="viewSavedWords" class="button_home">Ver palabras guardadas</button>
+            </div>
+        </section>
+        <section id="writeWordSection">
+            <h2 class="title_textArea">Escribe tu frase aquí abajo <br><span class="subtitle_textArea">Longitud máxima: 10 carácteres. <br> (Las letras serán convertidas a mayúsculas automáticamente).</span></h2>
+            <textarea id="textArea" class="text_area" placeholder="Escribe tu frase aquí..." maxlength="10"></textarea>
+            <div class="buttons_writeWord">
+                <button class="button_home" id="goGame">Ir al juego</button>
+                <button class="button_home" id="goBackAlternative">Volver al inicio</button>
+            </div>
+        </section>
+        <section id="fullGame">
+            <div class="personaje"></div>
+            <div class="texto"></div>
+        </section>
+    </main>
+    <script src="./Scripts/index.js"></script>
+</body>
+</html>

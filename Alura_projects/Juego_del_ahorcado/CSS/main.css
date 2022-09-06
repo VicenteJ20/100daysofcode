@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #04171b;
+}
+
+#header_home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 0;
+    align-items: center;
+    background-color: #04171b;
+}
+
+.created-by-div{
+    text-align: end;
+    font-weight: 600;
+    color: #5CD85A;
+    font-size: 1.2rem;
+}
+
+.name_link{
+    transition: 0.5s;
+    color: #beffbd;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+
+.name_link:hover{
+    color: #1ea71c;
+}
+
+
+.visual-div-header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+.go_back_btn{
+    all: unset;
+    font-size: 2.5rem;
+    color: #beffbd;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.go_back_btn:hover{
+    color: #1ea71c;
+}
+
+.Home_section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title_home{
+    font-size: 3rem;
+    text-align: center;
+    color: #1ea71c;
+}
+
+.subtitle{
+    font-size: 2.1rem;
+    text-align: center;
+    color: #beffbd;
+}
+
+.buttons_div_home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 90%;
+    margin: 4rem auto;
+}
+
+.button_home{
+    padding: 1rem;
+    border: 3px solid #5CD85A;
+    background: none;
+    color: #beffbd;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button_home:hover{
+    background-color: #0c690b;
+}
+
+
+/* writeWordSection */
+#writeWordSection{
+    width: 65%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title_textArea{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1ea71c;
+}
+
+.subtitle_textArea{
+    font-size: 1.4rem;
+    color: #beffbd;
+    font-weight: 500;
+}
+
+#textArea{
+    all: unset;
+    padding: 1rem;
+    color: #beffbd;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 3px solid #5CD85A;
+    height: 10rem;
+}
+
+.buttons_writeWord{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 3rem;
+}
+
